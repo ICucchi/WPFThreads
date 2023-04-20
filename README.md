@@ -108,7 +108,7 @@ spegne momentaneamente il pulsante, quando ha finito il pulsante risulta acceso 
 ProgressBar: si usa per visualizzare l'andamento di un'operazione in corso, i valori minimo e massimo possono essere inseriti riguardo alla barra di avanzamento e quindi aggiornare il valore corrente man mano che l'operazione avanza. In questo modo, la barra di avanzamento si riempirà gradualmente fino a raggiungere il valore massimo quando l'operazione sarà completa.
 
 Esempi di codice affrontati in classe da cui poter prendere spunto per poter completare l’esercizio assegnato:
-
+3 volte backtick per inserire codice in maniera giusta
 
 
 
