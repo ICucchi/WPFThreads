@@ -9,6 +9,7 @@ dentro bin e obj ci sono i file compilati
 
 Visual studio ci divide lo schermo in zona sopra e sotto, per recuperare spazio eliminare parti inutili, con il tasto comprimi vediamo l’anteprima senza il codice di intralcio.
 Tag di apertura di windows contiene all’ interno tanti attributi
+![image](file1.png)
 
 
 
