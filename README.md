@@ -9,9 +9,7 @@ dentro bin e obj ci sono i file compilati
 ### ![creazione thread](./images/wpf1.png)
 Visual studio ci divide lo schermo in zona sopra e sotto, per recuperare spazio eliminare parti inutili, con il tasto comprimi vediamo l’anteprima senza il codice di intralcio.
 Tag di apertura di windows contiene all’ interno tanti attributi
-
-
-
+### ![creazione thread](./images/wpf2.png)
 
 "cucchi.iacopo.4i.wpf base" -> nel Title inserire il nome del progetto
 visualizza altre finestre poi altre proprietà per far apparire la finestra per la gestione delle proprietà
@@ -30,31 +28,31 @@ cucchi.iacopo.4i.wpf Threads ->public MainWindow()
 serve per accedere a tutti i componenti.
 THREAD
 un piccolo programma che gira in maniera autonoma ma dipende dal processo principale
-
+### ![creazione thread](./images/wpf3.png)
 MainWindow all'interno di esso verrà lanciato il thread
 private int_counter =0 -> variabile globale, variabile di istanza "counter" di tipo intero (int) e inizializzata con il valore 0.
 
 Dispatcher.Invoke
 E’ un metodo che consente di eseguire codice nel thread dell'interfaccia utente da un thread in background. Permette di accedere ai controlli dell'interfaccia utente esclusivamente dal thread che li ha  creati, solitamente il thread dell'interfaccia utente, permette a un thread di accedere al lbl Counter 1.
 Thread 1 non  riesce ad accedere al lbl Counter 1
-
+### ![creazione thread](./images/wpf4.png)
 wrapping(zona critica)metodo che contiene parametri al suo interno: 
 lambda expression, simbolo di lambda => 
-
+### ![creazione thread](./images/wpf5.png)
 
 
 Comando per determinare la sospensione del thread corrente per un periodo di tempo specificato, in questo caso 50 millisecondi:
-
+### ![creazione thread](./images/wpf6.png)
 Processo bloccante
 Un processo bloccante è un processo che impedisce ad altri processi di eseguire codice mentre esso è in esecuzione, perché il processo bloccante richiede l'accesso a una risorsa che non è disponibile o non può essere utilizzata simultaneamente da più processi, quando c'è un processo bloccante c’è il blocco del processo del user interface, l’applicazione non risponde “lagga”.
 
 16/02/2023
 Creazione di un nuovo thread tramite il codice:
 lbl Counter 1.Text=x.ToString(); -> la variabile x viene convertita in una stringa utilizzando il metodo ToString()  
-
+### ![creazione thread](./images/wpf7.png)
 
 il processo lento da lanciare diventa:
-
+### ![creazione thread](./images/wpf8.png)
 
 
 
