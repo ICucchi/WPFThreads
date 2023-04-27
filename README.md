@@ -6,7 +6,7 @@ cucchi.iacopo.4i.wpfbase .NET 6.0 -> creazione del progetto su vs 2022
 Con soluzione - apri cartella in esplora file -> per trovare esattamente dov’è il nostro progetto, per le consegne bisogna consegnare l’intera cartella
 
 dentro bin e obj ci sono i file compilati
-### ![creazione thread](./images_WPFThreads/wpf1.png)
+### ![creazione thread](./images/WPFThreads/wpf1.png)
 Visual studio ci divide lo schermo in zona sopra e sotto, per recuperare spazio eliminare parti inutili, con il tasto comprimi vediamo l’anteprima senza il codice di intralcio.
 Tag di apertura di windows contiene all’ interno tanti attributi
 
